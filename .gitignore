@@ -1,1 +1,6 @@
 *.tfvars
+*.tfstate
+*.tfstate.backup
+.terraform
+.git
+.env
