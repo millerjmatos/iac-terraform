@@ -1,12 +1,14 @@
-# Rotina na AWS com Terraform
+# AWS Infrastructure with Terraform
 
-> Criação de uma instância EC2. Configuração de um grupo de segurança para permitir acesso HTTP e SSH, e armazenamento do estado do Terraform no S3 com controle de bloqueio via DynamoDB.
+> Creates an EC2 instance with HTTP and SSH access through Security Groups. State management handled via S3 bucket with DynamoDB locking.
 
-Pré-requisitos:
+## Prerequisites
 
-1. Docker instalado em sua máquina.
-2. Uma conta AWS configurada com credenciais (Access Key e Secret Key).
-3. Um par de chaves SSH criado e registrado na AWS (você precisará do nome dele).
-4. Um bucket S3 e uma tabela DynamoDB configurados para armazenar o estado do Terraform.
+1. Docker installed locally
+2. AWS account with configured credentials (Access Key & Secret Key)
+3. AWS SSH key pair (name required)
+4. Configured S3 bucket and DynamoDB table for Terraform state management
 
-Fique à vontade para personalizar este projeto! Ele foi feito para ser um ponto de partida para explorar práticas com Terraform. 😊
+This project serves as a foundation for learning Terraform practices with AWS infrastructure. Feel free to modify and expand upon it. 😀
+___
+Created by [Muller Matos](https://linktr.ee/millerjmatos)
